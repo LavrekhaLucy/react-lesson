@@ -4,7 +4,7 @@ type MyComponentPropType = {text:string}
 
 const MyComponent: FC<MyComponentPropType> = ({text}) => {
     return (
-        <div>
+        <div className={'target'}>
             {text}
         </div>
     );
