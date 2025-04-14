@@ -5,9 +5,11 @@ function App() {
 
   return (
     <>
-        <MyComponent text={'Hello Okten 1'}/>
-        <MyComponent text={'Hello Okten 2'}/>
-        <MyComponent text={'Hello Okten 3'}/>
+        <MyComponent text={'Title 1'}>
+            Lorem ipsum dolor sit.
+        </MyComponent>
+        <MyComponent text={'Title 2'}/>
+        <MyComponent text={'Title 3'}/>
         {/*{MyComponent({text: 'Hello Okten 2'})}*/}
 
     </>
